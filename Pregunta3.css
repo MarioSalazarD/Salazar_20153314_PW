@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+#juegos{
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+#juegos td, #juegos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+#juegos tr:nth-child(even){background-color: #f2f2f2;}
+#juegos tr:hover {background-color: #ddd;}
+#juegos th{
+    background-color: #12AAFF;
+}
+#juegos td{
+    border: 1px solid black;
+    
+}
